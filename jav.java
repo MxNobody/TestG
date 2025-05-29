@@ -1,3 +1,6 @@
+
+import javax.crypto.KEM;
+
 class A{
     private int x=1;
 
@@ -16,6 +19,7 @@ class A{
         System.out.println(a.getX());
         a.setX(6);
         System.out.println(a.getX());
+        
 
     }
 
